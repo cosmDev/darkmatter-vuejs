@@ -1,0 +1,28 @@
+{
+  "name": "darkmatter-vuejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cosmdev/darkmatter-js": "^1.0.5",
+    "@cosmjs/stargate": "^0.30.1",
+    "@cosmjs/tendermint-rpc": "^0.30.1",
+    "baklavajs": "^1.10.2",
+    "chatgpt": "^5.2.4",
+    "keyv": "^4.5.2",
+    "openai": "^3.2.1",
+    "pinia": "^2.0.35",
+    "vue": "^3.2.47",
+    "vuetify": "^3.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.1",
+    "vite": "^4.3.4",
+    "vite-plugin-top-level-await": "^1.3.0",
+    "vite-plugin-wasm": "^3.2.2"
+  }
+}
